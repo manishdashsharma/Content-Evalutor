@@ -3,9 +3,10 @@ from dotenv import load_dotenv
 import os 
 
 load_dotenv()
+load_dotenv("/home/userConnect/Dowell-Original-AI/.env")
 
 # api_key = os.getenv("API_KEY")
-api_key = os.getenv("/home/userConnect/Dowell-Original-AI/API_KEY")
+api_key = os.getenv('API_KEY')
 print(api_key)
 
 def originalAI(content,title):
