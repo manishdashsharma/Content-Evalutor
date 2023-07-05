@@ -23,7 +23,6 @@ class originalAITest(APIView):
 
         serializer = APIInputCheckup(data=field)
         if serializer.is_valid():
-            return Response("All ok")
             response = originalAI(content, title)
             data = json.loads(response)
             return Response({

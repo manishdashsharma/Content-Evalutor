@@ -4,7 +4,8 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv("API_KEY")
+# api_key = os.getenv("API_KEY")
+api_key = os.getenv("/home/userConnect/Dowell-Original-AI/API_KEY")
 print(api_key)
 
 def originalAI(content,title):
