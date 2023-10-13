@@ -1,4 +1,4 @@
-# Originality API Project with Django Rest Framework
+# Content Evalutor API services
 
 Welcome to the Originality API project built with Django Rest Framework (DRF). This project allows you to evaluate content for originality.
 
